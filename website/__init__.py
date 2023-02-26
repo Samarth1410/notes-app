@@ -45,7 +45,7 @@ def create_database(app):
         #Create Databse
         with app.app_context():
             print(1)
-            db.init_app(app)
+#             db.init_app(app)
             print(2)
             db.create_all()
             print(3)
