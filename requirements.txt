@@ -17,6 +17,7 @@ itsdangerous
 Jinja2
 Mako
 MarkupSafe
+Psycopg2
 PyJWT
 pytz
 six
