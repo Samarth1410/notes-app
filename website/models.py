@@ -7,7 +7,7 @@ from sqlalchemy.sql import func  #func automatically gets current date time.
 #Creating Blueprint of Notes DataBase
 class Note(db.Model):
     id = db.Column(db.Integer, primary_key = True)
-    data = db.Column(db.String(15000000), unique = True)
+    data = db.Column(db.String(104857), unique = True)
     date = db.Column(db.DateTime(timezone = True), default = func.now())
     
     #To automaticaaly store ID of user from user database we used ForeignKey
