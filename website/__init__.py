@@ -13,7 +13,7 @@ def create_app():
     
     #Location where we need our database to be after creation
     # app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + path.join(path.abspath(path.dirname(__file__)), 'data.sqlite')
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://zmthuexqyghuli:6e02ae4390f41339b95834758ec4db8f5e3c7853a52f71c739525312ae6708c3@ec2-3-219-135-162.compute-1.amazonaws.com:5432/d9jp99iarlhtog'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://zmthuexqyghuli:6e02ae4390f41339b95834758ec4db8f5e3c7853a52f71c739525312ae6708c3@ec2-3-219-135-162.compute-1.amazonaws.com:5432/d9jp99iarlhtog'
 
     #Tell databse that it will be accessed by app
     db.init_app(app)
