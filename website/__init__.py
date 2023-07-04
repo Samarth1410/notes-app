@@ -15,7 +15,7 @@ def create_app():
     # app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + path.join(path.abspath(path.dirname(__file__)), 'data.sqlite')
 #     app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://zmthuexqyghuli:6e02ae4390f41339b95834758ec4db8f5e3c7853a52f71c739525312ae6708c3@ec2-3-219-135-162.compute-1.amazonaws.com:5432/d9jp99iarlhtog'
     # app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://notesdb_3sfu_user:tdDG2ItrnqQ6Z38EV4feGiD2ujCpdAa7@dpg-cftj221a6gdotcf4g0tg-a/notesdb_3sfu'
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://mynotes_age6_user:W9MKTRuVG5xsEvON5yPwBkvZhLyFNSk3@dpg-cihv5senqql0tc12csi0-a/mynotes_age6'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://mynotes_age6_user:W9MKTRuVG5xsEvON5yPwBkvZhLyFNSk3@dpg-cihv5senqql0tc12csi0-a/mynotes_age6'
 
 
     #Tell databse that it will be accessed by app
